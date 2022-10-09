@@ -40,14 +40,14 @@ padding: 10px 15px;
     border-right: solid 2px orange;
     border-radius: 20px;
     color: red;
-    animation-delay: 2s btnKey linear;
-}
+    animation: 2s btnKey linear infinite;
+ }
 @keyframes bthKey {
     0%{
        transform: scale(1,1);
     }
 50%{
-    transform: scale(1,4,1,4);
+    transform: scale(1.4,1.4);
     background: aquamarine;
 }
     100%{
